@@ -1,0 +1,96 @@
+ *{margin: 0;padding: 0;}
+body{
+    background-color: rgb(250, 211, 176);
+}
+#wrapper{
+    width:1040px;
+    margin: 20px auto;
+}
+#header{
+    background-color: sienna;
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+#header h2{
+    font-size: 25px;
+    font-family: georgia;
+    color: rgb(255, 255, 255)
+}
+#header p{
+    font-size: 25px;
+    font-family: georgia;
+    color: rgb(255, 255, 255)
+}
+
+#menu{
+    background-color: white;
+    height: 38px;
+    border-bottom: 5px solid red;
+}
+#menu ul{
+    background-color: white;
+    list-style-type: none;
+
+}
+#menu ul li{
+    float: left;
+    border-right: 1px solid red;
+
+}
+#menu ul li:last-child{
+    border: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px 20px;
+
+}
+#menu ul li a:hover{
+    background-color: salmon;
+    transition: 0.2s;
+}
+
+
+#menu ul li{
+    position:relative;
+}
+#menu ul li ul{
+    position: absolute; left: -9999px;
+}
+#menu ul li:hover ul{
+    left:0
+}
+#menu ul li ul li:first-child{
+    border-top: 1px solid red;
+
+}
+#menu ul li ul li{
+    float: none;
+    border-right: none;
+    border-bottom: 5 px solid rgb(42, 77, 20);
+    background-color: white;
+    width: 95px;
+}
+#slider img{
+    width: 960px;
+    vertical-align: middle;
+}
+
+#content_wrapper{
+    background-color: white;
+    border-top: 5px solid red;
+    padding: 10px;
+    overflow: hidden;
+}
+#content{
+    width: 620px;
+    margin-right: 20px;
+    float: left;
+
+ }
+ #sidebar{
+     width: 300px;
+    float: left;
+ }
